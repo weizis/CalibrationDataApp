@@ -1,0 +1,9 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+
+# Build results
+*.dll
+*.exe
