@@ -49,8 +49,8 @@
         <oxy:PlotView x:Name="plotView" Grid.Row="1" Margin="20,20,20,20"/>
 
         <!-- Кнопка Назад / Статус -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,50">
-            <Border Background="#F0F5FF" BorderBrush="#D0D5FF" BorderThickness="1" CornerRadius="8" Padding="20,12" Margin="0,0,30,0" Height="70">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,50">
+            <Border Background="#F0F5FF" BorderBrush="#D0D5FF" BorderThickness="1" CornerRadius="8" Padding="20,12" Margin="0,-20,30,0" Height="75">
                 <StackPanel Orientation="Horizontal">
                     <materialDesign:PackIcon Kind="CheckCircle" Width="24" Height="24" Margin="0,0,12,0" Foreground="#4CAF50"/>
                     <TextBlock Text="Статус: данные откалиброваны" FontSize="20" FontWeight="Medium" VerticalAlignment="Center"/>

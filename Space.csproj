@@ -10,13 +10,9 @@
 
   <ItemGroup>
     <Compile Remove="Новая папка1\**" />
-    <Compile Remove="Новая папка\**" />
     <EmbeddedResource Remove="Новая папка1\**" />
-    <EmbeddedResource Remove="Новая папка\**" />
     <None Remove="Новая папка1\**" />
-    <None Remove="Новая папка\**" />
     <Page Remove="Новая папка1\**" />
-    <Page Remove="Новая папка\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,6 +36,12 @@
     <Resource Include="Fonts\Jura-VariableFont_wght.ttf">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\calibration_sample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
